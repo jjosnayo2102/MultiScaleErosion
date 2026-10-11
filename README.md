@@ -33,11 +33,16 @@ Presets of sequence of erosion are also available in the app ("Results" buttons)
 
 # Para compilar y ejecutar:
 mkdir build
+
 cd build
+
 cmake -G "MinGW Makefiles" ..
+
 cmake --build . --target main --config Release
+
 .\src\code\main.exe 
 
 # Para las siguientes ejecuciones
 cd build
+
 .\src\code\main.exe
